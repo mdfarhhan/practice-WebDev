@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(52, 128, 234);
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: blue;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin: 25px;
+}
+nav ul a{
+    color: black;
+}
+nav ul a:hover{
+    color: rgb(153, 31, 31);
+    font-size: 1.15rem;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 125px 0;
+    align-items: center;
+}
+.firstsection div{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.leftsection{
+    
+    font-size: 2rem;
+    
+}
+.rightsection{
+    background-color: rgb(109, 182, 45);
+
+}
+.rightsection img{
+    margin: 15px 0 15px 0;
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    
+    
+
+
+}
+.secondsection h1{
+    font-size: 1.8rem;
+
+}
+
+.secondsection .box{
+    background-color: #fff;
+    width: 80vw;
+    height: 20px;
+    margin: 55px 0;
+    display: flex;
+}
+
+.secondsection .vertical{
+    height: 90px;
+    width: 10px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+main hr{
+    border: 0;
+    background-color: red;
+    height: 1.5px;
+    margin: 40px 80px;
+}
+
+
+
+.name{
+    color:blueviolet;
+}
+
+#element{
+    color: blueviolet;
+}
